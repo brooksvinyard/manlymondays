@@ -34,14 +34,14 @@ function App() {
 }
 
 const end = moment.tz(
-  '2019-04-22 17:00:00',
-  'YYYY-MM-DD kk:mm:ss',
-  "America/Los_Angeles"
+  '2019-04-22 04:00:00',
+  'YYYY-MM-DD HH:mm:ss',
+  'America/Los_Angeles'
 );
 
 class Header extends React.Component {
   state = {
-    timer: moment(end.diff(moment())).format('DD:hh:mm:ss')
+    timer: moment(end.diff(moment())).format('DD:HH:mm:ss')
   };
 
   componentDidMount() {
@@ -55,7 +55,7 @@ class Header extends React.Component {
 
   timer = () => {
     this.setState(prevState => ({
-      timer: moment(end.diff(moment())).format('DD:hh:mm:ss')
+      timer: moment(end.diff(moment())).format('DD:HH:mm:ss')
     }));
   };
   //   const end =
