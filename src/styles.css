@@ -34,16 +34,16 @@ body {
   color: white;
   bottom: 0;
   padding: 24px 64px;
-  margin-bottom: 448px;
-  border-radius: 4px;
+  margin-bottom: 50%;
+  border-radius: 1%;
 }
 
 .header h2 {
-  font-size: 64px;
+  font-size: 4rem;
 }
 
 .header h4 {
-  font-size: 32px;
+  font-size: 3rem;
 }
 
 * {
