@@ -1,0 +1,51 @@
+body,
+html,
+.particles,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mountains of Christmas';
+  text-align: center;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  height: 100%;
+}
+
+.particles {
+  position: absolute;
+  top: 0;
+}
+
+.flex-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  font-family: 'Press Start 2P';
+  color: white;
+  bottom: 0;
+  padding: 24px 64px;
+  margin-bottom: 448px;
+  border-radius: 4px;
+}
+
+.header h2 {
+  font-size: 64px;
+}
+
+.header h4 {
+  font-size: 32px;
+}
+
+* {
+  overflow: hidden;
+}
